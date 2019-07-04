@@ -1,0 +1,45 @@
+/*for the styling of filter in Character page*/
+span.button{
+    background-image: none;
+    background-color: #cdd0d6;
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    border-radius: 12px;
+    border: 2px solid #cdd0d6;
+}
+
+span.button:hover{
+    background-image: none;
+    background-color: #edf2f9;
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    border-radius: 12px;
+    border: 2px solid #cdd0d6;
+}
+
+span.button:active{
+    background-image: none;
+    background-color: #cdd0d6;
+    font-size: 16px;
+    font-weight: bold;
+    color:#000000;
+    border-radius: 12px;
+    border: 2px solid #ffffff;
+}
+
+div.imgButton{
+    cursor:pointer;
+}
+
+div.textButton{
+    text-align: center;
+}
+
+div.filterGridCell{
+    width: 100%; 
+    display: grid; 
+    justify-content: space-evenly; 
+    background-color: #cdd0d6;
+}
